@@ -1,9 +1,9 @@
-# ANLY530_Group1ClassProject
+# ANLY545_GroupClassProject
 Machine Learning 1 Course Project
 
 ## Report
 
-[Group1 Class Project](https://htmlpreview.github.io/?https://raw.githubusercontent.com/outcastgeek/ANLY545_GroupClassProject/master/ANLY545_GroupClassProject.html)
+[Group Class Project](https://htmlpreview.github.io/?https://raw.githubusercontent.com/outcastgeek/ANLY545_GroupClassProject/master/ANLY545_GroupClassProject.html)
 
 ## Launchers
 
