@@ -1,0 +1,110 @@
+---
+title: "ANLY 530 Group1 Class Project: Absenteeism at Work"
+author:
+- "Josseline Betio"
+- "Akpany Benjamin Ebby"
+- "Yajun Wang"
+- "Salah Eddine MIFDAL"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    highlight: zenburn
+comment: Rmd Document with Markdown + Embedded R Code
+---
+
+---
+
+#### Document as of `r Sys.Date()`
+
+```{r setup, include=FALSE, purl=FALSE, eval=TRUE}
+
+source('R/ANLY530_Group1ClassProject_Helper.R')
+
+```
+
+```{r echo=FALSE}
+
+library(knitr)
+#library(kableExtra)
+read_chunk('R/ANLY530_Group1ClassProject_Chunks.R')
+
+```
+
+Some helper functions do exists to support the code snippets below such as: ```fullFilePath```
+
+---
+
+```{r loadLibraries, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+## Collecting the data
+
+Let us start by [Prepping] and [Loading the Data Sheets]
+
+```{r prepData, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+```{r loadSheets, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+# Initial Work
+--------------
+
+## Data Exploration:
+
+```{r dataExploration, warning=FALSE}
+```
+
+## Data Analysis:
+
+```{r dataAnalysis, warning=FALSE}
+```
+
+# Models Training
+-----------------
+
+## Semi Supervised Classifier
+```{r semiSupervisedClassification, warning=FALSE}
+```
+
+## SVM Classifier
+```{r svmClassification, warning=FALSE}
+```
+
+Training error is `around 16%`.
+The classifier is `correct in 135 out of 185` test data points.
+
+## Naive Bayes Classifier
+```{r naiveBayesClassification, warning=FALSE}
+```
+
+## Analysis
+
+Words of Wisdom
+
+---
+
+# Appendix:
+
+### Required Libraries
+
+```{r installLibraries, eval=FALSE}
+```
+
+```{r loadLibraries, eval=FALSE}
+```
+
+### Helper Functions
+
+```{r helperFunctions, eval=FALSE}
+```
+
+### Prepping
+
+```{r prepData, eval=FALSE}
+```
+
+### Loading the Data Sheets
+
+```{r loadSheets, eval=FALSE}
+```

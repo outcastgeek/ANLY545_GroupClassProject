@@ -1,0 +1,24 @@
+name: ANLY545
+channels:
+  - conda-forge
+  - pyviz/label/dev
+  - r
+  - javascript
+dependencies:
+  - nodejs
+  - jupyterlab
+  - libgfortran
+  - simplegeneric
+  - pandas
+  - pyviz
+  - r
+  - r-base #mro-base
+  - r-essentials
+  - r-irkernel
+  - r-tidyverse
+  - r-ggthemes
+  - r-reticulate
+  - rstudio
+  - rpy2
+  - pip:
+    - jupyterlab_latex
